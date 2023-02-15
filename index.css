@@ -1,0 +1,62 @@
+body {
+    background-image: url(v2osk-1Z2niiBPg5A-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: aliceblue;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+
+}
+
+.increment-btn {
+    background-color: red;
+    margin-right: 10px;
+
+    transition: opacity 0.4s;
+}
+
+.decrement-btn:active,
+.increment-btn:active {
+    opacity: 0.4;
+}
+
+.decrement-btn {
+    background-color: green;
+    margin-left: 10px;
+
+    transition: opacity 0.5s;
+}
+
+
+.title {
+    text-align: center;
+    font-size: 3em;
+}
+
+.count {
+    text-align: center;
+    font-size: 4em;
+}
+
+
+.bg-img {
+    width: 100px;
+}
